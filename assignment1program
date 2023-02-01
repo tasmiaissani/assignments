@@ -1,0 +1,39 @@
+integer.h
+
+class Integer{
+private:
+int number;
+public:
+Integer(){
+number = 1;
+}
+Integer(int num){
+number = num;
+}
+int getNumber(){
+return number;
+}
+void setNumber(int num){
+number = num;
+}
+Integer addition(Integer a,Integer b){
+int result = a.number + b.number;
+Integer integer(result);
+return integer;
+}
+Integer substraction(Integer a,Integer b){
+int result = a.number - b.number;
+Integer integer(result);
+return integer;
+}
+Integer multiplication(Integer a,Integer b){
+int result = a.number * b.number;
+Integer integer(result);
+return integer;
+}
+Integer division(Integer a,Integer b){
+int result = a.number / b.number;
+Integer integer(result);
+return integer;
+}
+};
