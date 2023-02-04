@@ -8,7 +8,7 @@ int main()
 char option;
 int number1;
 int number2;
-cout<<"A for addition S for sbstraction M for multiplication D for division E for Exit.";
+cout<<"A is addition S is sbstraction M is multiplication D is division E for Exit.";
 Integer re;
 cin>>option;
 do{
